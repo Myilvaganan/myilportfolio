@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/myilportfolio/static/css/main.1a03f7a1.chunk.css",
+    "main.js": "/myilportfolio/static/js/main.d6a9a2ca.chunk.js",
+    "main.js.map": "/myilportfolio/static/js/main.d6a9a2ca.chunk.js.map",
+    "runtime-main.js": "/myilportfolio/static/js/runtime-main.db596040.js",
+    "runtime-main.js.map": "/myilportfolio/static/js/runtime-main.db596040.js.map",
+    "static/js/2.667e1e8a.chunk.js": "/myilportfolio/static/js/2.667e1e8a.chunk.js",
+    "static/js/2.667e1e8a.chunk.js.map": "/myilportfolio/static/js/2.667e1e8a.chunk.js.map",
+    "index.html": "/myilportfolio/index.html",
+    "static/css/main.1a03f7a1.chunk.css.map": "/myilportfolio/static/css/main.1a03f7a1.chunk.css.map",
+    "static/js/2.667e1e8a.chunk.js.LICENSE.txt": "/myilportfolio/static/js/2.667e1e8a.chunk.js.LICENSE.txt",
+    "static/media/about.62f70880.jpg": "/myilportfolio/static/media/about.62f70880.jpg",
+    "static/media/avatar.1dadf873.png": "/myilportfolio/static/media/avatar.1dadf873.png",
+    "static/media/design.8ecb3043.svg": "/myilportfolio/static/media/design.8ecb3043.svg",
+    "static/media/emailme.a60657eb.svg": "/myilportfolio/static/media/emailme.a60657eb.svg",
+    "static/media/firebase.9add5951.png": "/myilportfolio/static/media/firebase.9add5951.png",
+    "static/media/gameDev.20147858.svg": "/myilportfolio/static/media/gameDev.20147858.svg",
+    "static/media/git.dceb2da1.png": "/myilportfolio/static/media/git.dceb2da1.png",
+    "static/media/github.291ce1d7.png": "/myilportfolio/static/media/github.291ce1d7.png",
+    "static/media/githubpages.bf71e4db.png": "/myilportfolio/static/media/githubpages.bf71e4db.png",
+    "static/media/heroku.425683ad.png": "/myilportfolio/static/media/heroku.425683ad.png",
+    "static/media/html.e5591b64.jpg": "/myilportfolio/static/media/html.e5591b64.jpg",
+    "static/media/intelligence.11bd2ab2.svg": "/myilportfolio/static/media/intelligence.11bd2ab2.svg",
+    "static/media/js.af773e6c.jpg": "/myilportfolio/static/media/js.af773e6c.jpg",
+    "static/media/location.5cd6776e.svg": "/myilportfolio/static/media/location.5cd6776e.svg",
+    "static/media/mongo.a7014047.png": "/myilportfolio/static/media/mongo.a7014047.png",
+    "static/media/mysql.7bcbfc46.jpg": "/myilportfolio/static/media/mysql.7bcbfc46.jpg",
+    "static/media/netlify.02f19dbc.jpg": "/myilportfolio/static/media/netlify.02f19dbc.jpg",
+    "static/media/node.c1cf99bf.png": "/myilportfolio/static/media/node.c1cf99bf.png",
+    "static/media/phone.ef86e22a.svg": "/myilportfolio/static/media/phone.ef86e22a.svg",
+    "static/media/postman.da44adb6.svg": "/myilportfolio/static/media/postman.da44adb6.svg",
+    "static/media/react.347ff04a.jpg": "/myilportfolio/static/media/react.347ff04a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db596040.js",
+    "static/js/2.667e1e8a.chunk.js",
+    "static/css/main.1a03f7a1.chunk.css",
+    "static/js/main.d6a9a2ca.chunk.js"
+  ]
+}
