@@ -8,7 +8,7 @@ const AboutSection = () => {
         <img src={about} alt="" />
         <button className="btn resume">
           <a
-            href="../images/resume/MYILVAGANAN.pdf"
+            href="https://drive.google.com/file/d/1k8w3bmcPCY28_eIBGuaOorWG58Uh8WLW/view?usp=sharing"
             download="Myilvaganan Resume"
           >
             Download Cv
