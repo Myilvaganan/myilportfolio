@@ -9,7 +9,7 @@ const AboutSection = () => {
         <button className="btn resume">
           <a
             href="https://drive.google.com/file/d/1k8w3bmcPCY28_eIBGuaOorWG58Uh8WLW/view?usp=sharing"
-            download="Myilvaganan Resume"
+            rel="noreferrer" target="_blank"
           >
             Download Cv
           </a>
