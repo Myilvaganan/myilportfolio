@@ -1,0 +1,147 @@
+.AboutPage {
+  z-index: 3;
+  line-height: 2;
+ 
+}
+
+.ImageSection {
+   display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    .img{
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 80%;
+            border-radius:10px;
+        }
+    }
+
+    .about-info{
+        margin-top: -1.5rem;
+        margin-left: 2rem;
+        
+        h4{
+            font-size: 2.5rem;
+        }
+       
+    }
+
+     @media screen and (max-width: 1000px){
+        flex-direction: column;
+       
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+            
+        }
+    }
+}
+
+
+.about-details{
+    display: flex;
+    margin-top: 1rem;
+    .right-section{
+        margin-left: 1rem;
+    }
+}
+
+
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: $active-color;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    position: relative;
+    border-radius:50px;
+    overflow-x: hidden;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0.5rem;
+        left: 0;
+        bottom: 0;
+        
+        background-color: $bar-color;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+       
+    }
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: inherit;
+        font-weight:500;
+    }
+}
+
+
+.skillsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 3rem;
+    margin: 4rem 0;
+    @media screen and (max-width: 1100px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+.btn-port{
+    padding: .6rem 2rem;
+    background-color: #0381ff5b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: #037FFF;
+    }
+    &:active{
+        background-color: #037FFF;
+    }
+    &:focus{
+        background-color: #037FFF;
+    }
+    
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 10rem;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1270px){
+        margin: 2rem 5rem;
+    }
+    @media screen and (max-width: 1100px){
+        margin: 2rem 2rem;
+    }
+}
