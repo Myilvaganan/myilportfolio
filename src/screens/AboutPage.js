@@ -5,7 +5,7 @@ import SkillsSection from '../components/SkillsSection';
 import Title from '../components/Title';
 import design from '../images/design.svg';
 import intelligence from '../images/intelligence.svg';
-import gameDev from '../images/gameDev.svg';
+
 
 const AboutPage = () => {
 	return (
@@ -31,8 +31,12 @@ const AboutPage = () => {
 					image={design}
 					title={'Engineer - MothersonSumi INfotech and Designs Limited, Noida'}
 					text={
-						'Experienced 2.5+ years in robotics field of automation as a programmer for articulated robots '
+						'Experienced for 2.5+ years in robotics field of automation as a programmer for articulated robots '
 					}
+          text2={
+						'August 2018 - January 2021'
+					}
+          experienceDetails={"In-depth knowledge of JavaScript, CSS, HTML, and front-end languages, Experience with user interface design and Good project management skills with Excellent troubleshooting skills"}
 				/>
 				<ServicesSection
 					image={intelligence}

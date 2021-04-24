@@ -1,3 +1,9 @@
+/* $primary-color: #2e344e;
+$active-color: #1fc211;
+$icon-color: #a4acc4;
+$bg-color: #2395b1;
+$bar-color: #23b13b;
+$light-color: #0be8f0;  */
 .HomePage {
   position: relative;
   left: 50%;
@@ -80,14 +86,14 @@
   left: 15px;
   height: calc(100% - 30px);
   width: calc(100% - 30px);
-  background-color: gold;
-  opacity: 0.6;
-  transform-origin: center;
+  background-color: rgba(3, 128, 255, 0.2);
+  opacity: 0.8;
+  transform-origin: top left;
   transform: scale(0);
   transition: all .4s ease-in-out; }
 
 .portfolios .portfolio .image-data:hover::before {
-  transform: scale(0.89); }
+  transform: scale(1); }
 
 .portfolios .portfolio .image-data img {
   width: 100%;
@@ -133,6 +139,10 @@
 .portfolios .portfolio h5:hover {
   color: #037FFF;
   cursor: pointer; }
+
+.portfolios .portfolio h5 a {
+  color: inherit;
+  text-decoration: none; }
 
 .ContactItem {
   width: 100%; }
@@ -542,6 +552,33 @@
   bottom: 0;
   left: 0; }
 
+.skillsContainer-tech .skill-title {
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+.skillsContainer-tech .skill-bar {
+  display: flex;
+  align-items: center; }
+
+.skillsContainer-tech .skill-bar .skill-progress {
+  width: 80%; }
+
+.skillsContainer-tech .skill-bar .skill-progress .progress {
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 50px;
+  margin-left: 1.1rem;
+  background-color: #0381ff3f;
+  position: relative; }
+
+.skillsContainer-tech .skill-bar .skill-progress .progress .inner-progress {
+  position: absolute;
+  background-color: #037fff;
+  border-radius: 50px;
+  height: 100%;
+  bottom: 0;
+  left: 0; }
+
 .ServicesSection .service {
   width: 95%;
   background-color: #191D2B;
@@ -562,6 +599,10 @@
 .ServicesSection .service .service-content {
   text-align: center;
   padding: 1rem; }
+
+.ServicesSection .service .service-content .s-text2 {
+  color: #037fff;
+  font-weight: 400; }
 
 .ServicesSection .service .service-content .s-title {
   font-size: 1.3rem;
@@ -654,7 +695,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px; }
 
 body::-webkit-scrollbar-track {
-  background-color: #037fff; }
+  background-color: #2395b1; }
 
 .tsparticles-canvas-el {
   position: absolute;

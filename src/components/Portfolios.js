@@ -7,7 +7,8 @@ import githubSearch from "../images/proImgs/githubSearch.png";
 import colorFlipper from "../images/proImgs/color-flipper.png";
 import navbarSticky from "../images/proImgs/navbar-sticky.png";
 import florashop from "../images/proImgs/florashop.png";
-
+import dairyManager from "../images/proImgs/dairyManager.png";
+import myPortfolio from "../images/proImgs/myPortfolio.png";
 
 const portfolios = [
   {
@@ -20,6 +21,28 @@ const portfolios = [
     image: florashop,
     description: "A site to Buy and Sell Plants Online",
     title: "E-Commerce FLoraShop",
+  },
+   {
+    id: 10,
+    category: "Node Js",
+    deploy: "https://diary-manager.netlify.app/",
+    repo: "https://github.com/Myilvaganan/diary-project-MERN",
+    icon1: "D",
+    icon2: "G",
+    image: dairyManager,
+    description: "write your memories with me!",
+    title: "Dairy Manager",
+  },
+   {
+    id: 11,
+    category: "React Js",
+    deploy: "https://myilvaganan.github.io/myilportfolio",
+    repo: "https://github.com/Myilvaganan/myilportfolio",
+    icon1: "D",
+    icon2: "G",
+    image: myPortfolio,
+    description: "My Portfolio website",
+    title: "Portfolio",
   },
   {
     id: 1,

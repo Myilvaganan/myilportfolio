@@ -1,11 +1,11 @@
 import React from "react";
-import about from "../images/about.jpeg";
+import about from "../images/about1.png";
 
 const AboutSection = () => {
   return (
     <div className="ImageSection">
       <div className="img">
-        <img src={about} alt="" />
+        <img src={about} alt="devImg" />
         <button className="btn resume">
           <a
             href="https://drive.google.com/file/d/1k8w3bmcPCY28_eIBGuaOorWG58Uh8WLW/view?usp=sharing"

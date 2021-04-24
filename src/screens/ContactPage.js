@@ -29,7 +29,7 @@ const ContactPage = () => {
           <div className="contact-sect">
             <ContactSection
               icon={phone}
-              text1={"+91 8925162153"}
+              text1={"+91 89251 62153"}
               title={"Phone & WhatsApp"}
             />
             <ContactSection

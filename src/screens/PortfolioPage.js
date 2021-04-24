@@ -10,7 +10,7 @@ const allCategories = [
 ];
 
 const PortfolioPage = () => {
-  const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
   const [menuItems, setMenuItems] = useState(portfolios);
 
   const filter = (category) => {

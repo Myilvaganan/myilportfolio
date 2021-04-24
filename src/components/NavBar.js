@@ -9,6 +9,7 @@ const NavBar = () => {
         {" "}
         <div className="my-image">
           <img src={avatar} alt="MyImage" />
+          <p style={{paddingBottom: 20, color: "#037fff"}}>Myilvaganan S</p>
         </div>
         <ul className="nav-items">
           <li className="nav-item">
@@ -25,7 +26,7 @@ const NavBar = () => {
 
           <li className="nav-item">
             <NavLink to="/work" exact activeClassName="active">
-              Technologies
+             Skills
             </NavLink>
           </li>
 
