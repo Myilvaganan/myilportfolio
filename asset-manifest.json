@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/myilportfolio/static/css/main.0c2dde6d.chunk.css",
-    "main.js": "/myilportfolio/static/js/main.20bc2143.chunk.js",
-    "main.js.map": "/myilportfolio/static/js/main.20bc2143.chunk.js.map",
+    "main.css": "/myilportfolio/static/css/main.4a020ce1.chunk.css",
+    "main.js": "/myilportfolio/static/js/main.4530b137.chunk.js",
+    "main.js.map": "/myilportfolio/static/js/main.4530b137.chunk.js.map",
     "runtime-main.js": "/myilportfolio/static/js/runtime-main.db596040.js",
     "runtime-main.js.map": "/myilportfolio/static/js/runtime-main.db596040.js.map",
     "static/js/2.80790e8a.chunk.js": "/myilportfolio/static/js/2.80790e8a.chunk.js",
     "static/js/2.80790e8a.chunk.js.map": "/myilportfolio/static/js/2.80790e8a.chunk.js.map",
     "index.html": "/myilportfolio/index.html",
-    "static/css/main.0c2dde6d.chunk.css.map": "/myilportfolio/static/css/main.0c2dde6d.chunk.css.map",
+    "static/css/main.4a020ce1.chunk.css.map": "/myilportfolio/static/css/main.4a020ce1.chunk.css.map",
     "static/js/2.80790e8a.chunk.js.LICENSE.txt": "/myilportfolio/static/js/2.80790e8a.chunk.js.LICENSE.txt",
-    "static/media/about.41e702e9.jpeg": "/myilportfolio/static/media/about.41e702e9.jpeg",
+    "static/media/about1.7dee0a1e.png": "/myilportfolio/static/media/about1.7dee0a1e.png",
     "static/media/avatar.1dadf873.png": "/myilportfolio/static/media/avatar.1dadf873.png",
     "static/media/color-flipper.efce9be2.png": "/myilportfolio/static/media/color-flipper.efce9be2.png",
+    "static/media/dairyManager.4fe6b492.png": "/myilportfolio/static/media/dairyManager.4fe6b492.png",
     "static/media/design.8ecb3043.svg": "/myilportfolio/static/media/design.8ecb3043.svg",
     "static/media/emailme.a60657eb.svg": "/myilportfolio/static/media/emailme.a60657eb.svg",
     "static/media/expense-tracker.228162e2.png": "/myilportfolio/static/media/expense-tracker.228162e2.png",
     "static/media/firebase.9add5951.png": "/myilportfolio/static/media/firebase.9add5951.png",
     "static/media/florashop.4f16b6c8.png": "/myilportfolio/static/media/florashop.4f16b6c8.png",
     "static/media/food-recipe.1d226315.png": "/myilportfolio/static/media/food-recipe.1d226315.png",
-    "static/media/gameDev.20147858.svg": "/myilportfolio/static/media/gameDev.20147858.svg",
     "static/media/git.dceb2da1.png": "/myilportfolio/static/media/git.dceb2da1.png",
     "static/media/github.291ce1d7.png": "/myilportfolio/static/media/github.291ce1d7.png",
     "static/media/githubSearch.a0fca67d.png": "/myilportfolio/static/media/githubSearch.a0fca67d.png",
@@ -30,6 +30,7 @@
     "static/media/js.af773e6c.jpg": "/myilportfolio/static/media/js.af773e6c.jpg",
     "static/media/location.5cd6776e.svg": "/myilportfolio/static/media/location.5cd6776e.svg",
     "static/media/mongo.a7014047.png": "/myilportfolio/static/media/mongo.a7014047.png",
+    "static/media/myPortfolio.ca3de124.png": "/myilportfolio/static/media/myPortfolio.ca3de124.png",
     "static/media/mysql.7bcbfc46.jpg": "/myilportfolio/static/media/mysql.7bcbfc46.jpg",
     "static/media/navbar-sticky.50e40011.png": "/myilportfolio/static/media/navbar-sticky.50e40011.png",
     "static/media/netflixClone.0174d9c0.png": "/myilportfolio/static/media/netflixClone.0174d9c0.png",
@@ -44,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.db596040.js",
     "static/js/2.80790e8a.chunk.js",
-    "static/css/main.0c2dde6d.chunk.css",
-    "static/js/main.20bc2143.chunk.js"
+    "static/css/main.4a020ce1.chunk.css",
+    "static/js/main.4530b137.chunk.js"
   ]
 }
