@@ -51,7 +51,7 @@ const Technologies = [
 		image: react,
 		title: 'ReactJs with Redux & Hooks',
 		link: 'https://reactjs.org/',
-     progress: "90%",
+		progress: '90%',
 		date: '04',
 		month: 'Jan',
 		year: '2019'
@@ -61,7 +61,7 @@ const Technologies = [
 		image: node,
 		title: 'NodeJs with ExpressJS',
 		link: 'https://nodejs.org/en/',
-     progress: "75%",
+		progress: '75%',
 		date: '09',
 		month: 'Feb',
 		year: '2019'
@@ -71,7 +71,7 @@ const Technologies = [
 		image: mongo,
 		title: 'Relational Database - MongoDB',
 		link: 'https://www.mongodb.com/',
-     progress: "90%",
+		progress: '90%',
 		date: '09',
 		month: 'Feb',
 		year: '2019'
@@ -81,7 +81,7 @@ const Technologies = [
 		image: mysql,
 		title: 'Sequential Database - MySQL ',
 		link: 'https://www.mysql.com/',
-     progress: "70%",
+		progress: '70%',
 		date: '09',
 		month: 'Jan',
 		year: '2021'
@@ -91,7 +91,7 @@ const Technologies = [
 		image: github,
 		title: 'Code hosting platform- GitHub',
 		link: 'https://github.com/',
-     progress: "95%",
+		progress: '95%',
 		date: '09',
 		month: 'Sep',
 		year: '2018'
@@ -101,7 +101,7 @@ const Technologies = [
 		image: githubpages,
 		title: 'static site hosting platform- GitHub Pages',
 		link: 'https://pages.github.com/',
-     progress: "100%",
+		progress: '100%',
 		date: '09',
 		month: 'Sep',
 		year: '2018'
@@ -111,7 +111,7 @@ const Technologies = [
 		image: git,
 		title: 'Version Control- Git',
 		link: 'https://git-scm.com/',
-     progress: "90%",
+		progress: '90%',
 		date: '09',
 		month: 'Sep',
 		year: '2020'
@@ -121,7 +121,7 @@ const Technologies = [
 		image: heroku,
 		title: 'Cloud Platform - Heroku',
 		link: 'https://www.heroku.com/',
-     progress: "70%",
+		progress: '70%',
 		date: '09',
 		month: 'Feb',
 		year: '2020'
@@ -131,7 +131,7 @@ const Technologies = [
 		image: firebase,
 		title: 'Mobile Application Development - Firebase',
 		link: 'https://firebase.google.com/',
-     progress: "60%",
+		progress: '60%',
 		date: '09',
 		month: 'Feb',
 		year: '2021'
@@ -141,7 +141,7 @@ const Technologies = [
 		image: netlify,
 		title: 'Hosting Platform - Netlify',
 		link: 'https://www.netlify.com/',
-     progress: "100%",
+		progress: '100%',
 		date: '09',
 		month: 'Dec',
 		year: '2020'
@@ -151,7 +151,7 @@ const Technologies = [
 		image: postman,
 		title: 'API Development Platform - Postman',
 		link: 'https://www.postman.com/',
-     progress: "100%",
+		progress: '100%',
 		date: '09',
 		month: 'Feb',
 		year: '2021'

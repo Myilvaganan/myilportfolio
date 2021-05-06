@@ -2,13 +2,21 @@ import React from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { motion } from 'framer-motion';
+import { fadeInUp, stagger } from '../utils/animation';
 
 const Menu = ({ menuItems }) => {
 	return (
-		<div className='portfolios'>
+		<motion.div className='portfolios' variants={stagger} initial='initial' animate='animate'>
 			{menuItems.map((item) => {
 				return (
-					<div className='portfolio' key={item.id}>
+					<motion.div
+						className='portfolio'
+						key={item.id}
+						variants={fadeInUp}
+						initial='initial'
+						animate='animate'
+					>
 						<div className='image-data'>
 							<img src={item.image} alt='' />
 							<ul className='hover-items'>
@@ -30,10 +38,10 @@ const Menu = ({ menuItems }) => {
 							</a>
 						</h5>
 						<p>{item.description}</p>
-					</div>
+					</motion.div>
 				);
 			})}
-		</div>
+		</motion.div>
 	);
 };
 

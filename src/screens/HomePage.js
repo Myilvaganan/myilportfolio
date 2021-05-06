@@ -6,11 +6,14 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import Typed from "react-typed";
+import { motion } from 'framer-motion';
+import { routeFade } from '../utils/animation';
+
 
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <header className="intro">
+      <motion.header className="intro" variants={routeFade} initial='initial' animate='animate'>
         <h1 className="intro-text">
           Hi! I'm{" "}
           <span className="typed">
@@ -68,7 +71,7 @@ const HomePage = () => {
             <FontAwesomeIcon className="icon ig" icon={faInstagram} />
           </a>
         </div>
-      </header>
+      </motion.header>
     </div>
   );
 };

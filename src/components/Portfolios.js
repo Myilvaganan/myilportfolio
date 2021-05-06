@@ -9,11 +9,35 @@ import navbarSticky from "../images/proImgs/navbar-sticky.png";
 import florashop from "../images/proImgs/florashop.png";
 import dairyManager from "../images/proImgs/dairyManager.png";
 import myPortfolio from "../images/proImgs/myPortfolio.png";
+import moneyManager from "../images/proImgs/expenseManager.jpg";
+import DevConnector from "../images/proImgs/DevConnector.jpg";
 
 const portfolios = [
+   {
+    id: 13,
+    category: "MERN",
+    deploy: "https://tranquil-forest-90914.herokuapp.com/",
+    repo: "https://github.com/Myilvaganan/DevConnector",
+    icon1: "D",
+    icon2: "G",
+    image: DevConnector,
+    description: "A Social Network Application to connect with Developers",
+    title: "DevConnector",
+  },
+   {
+    id: 12,
+    category: "MERN",
+    deploy: "https://expense-manager-myil.herokuapp.com/",
+    repo: "https://github.com/Myilvaganan/ExpenseManager-MERN",
+    icon1: "D",
+    icon2: "G",
+    image: moneyManager,
+    description: "Manage your expenses and Know your savings!",
+    title: "Expense Manager",
+  },
   {
     id: 9,
-    category: "Node Js",
+    category: "MERN",
     deploy: "https://florashopapp.herokuapp.com/",
     repo: "https://github.com/Myilvaganan/florashop",
     icon1: "D",
@@ -24,7 +48,7 @@ const portfolios = [
   },
    {
     id: 10,
-    category: "Node Js",
+    category: "MERN",
     deploy: "https://diary-manager.netlify.app/",
     repo: "https://github.com/Myilvaganan/diary-project-MERN",
     icon1: "D",
@@ -42,7 +66,7 @@ const portfolios = [
     icon2: "G",
     image: myPortfolio,
     description: "My Portfolio website",
-    title: "Portfolio",
+    title: "My Portfolio",
   },
   {
     id: 1,
@@ -53,7 +77,7 @@ const portfolios = [
     icon2: "G",
     image: expenseTracker,
     description: "Track your Expenditures",
-    title: "Expense-Tracker",
+    title: "Expense-Tracker ReactJs",
   },
   {
     id: 2,
@@ -64,7 +88,7 @@ const portfolios = [
     icon2: "G",
     image: foodRecipe,
     description: "Search Food Online and Know Recipe of it",
-    title: "Food Recipe Search",
+    title: "Food Recipe Search App",
   },
   {
     id: 3,

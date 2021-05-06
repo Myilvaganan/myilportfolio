@@ -2,17 +2,25 @@ import React from 'react';
 import Technologies from '../components/Technology';
 import Title from '../components/Title';
 import SkillsSection from '../components/SkillsSection';
+import { motion } from 'framer-motion';
+import { fadeInUp, stagger } from '../utils/animation';
 
 const TechPage = () => {
 	return (
-		<div>
+		<div className='skills-margin'>
 			<div className='b-title'>
 				<Title title={'Developer Skills'} span={'Developer Skills'} />
 			</div>
-			<div className='BlogsPage'>
+			<motion.div className='BlogsPage' variants={stagger} initial='initial' animate='animate'>
 				{Technologies.map((blog) => {
 					return (
-						<div className='blog' key={blog.id}>
+						<motion.div
+							className='blog'
+							key={blog.id}
+							variants={fadeInUp}
+							initial='initial'
+							animate='animate'
+						>
 							<div className='blog-content'>
 								<img src={blog.image} alt='' />
 								<a href={blog.link} className='blog-link'>
@@ -26,10 +34,10 @@ const TechPage = () => {
 							<div className='skillsContainer-tech'>
 								<SkillsSection progress={blog.progress} />
 							</div>
-						</div>
+						</motion.div>
 					);
 				})}
-			</div>
+			</motion.div>
 		</div>
 	);
 };

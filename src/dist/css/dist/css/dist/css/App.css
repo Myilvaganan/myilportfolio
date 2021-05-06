@@ -58,6 +58,9 @@ $light-color: #0be8f0;  */
 .icons .icon-holder .ig:hover {
   color: #f003f0; }
 
+.PortfolioPage {
+  margin-bottom: 3rem; }
+
 .portfolios {
   width: 100%;
   display: grid;
@@ -538,7 +541,7 @@ $light-color: #0be8f0;  */
 
 .skillsContainer .skill-bar .skill-progress .progress {
   width: 100%;
-  height: 0.5rem;
+  height: 1.5rem;
   border-radius: 50px;
   margin-left: 1.1rem;
   background-color: #0381ff3f;
@@ -547,6 +550,8 @@ $light-color: #0be8f0;  */
 .skillsContainer .skill-bar .skill-progress .progress .inner-progress {
   position: absolute;
   background-color: #037fff;
+  background-color: #20bf55;
+  background-image: linear-gradient(295deg, #00ee4f 0%, #037fff 74%);
   border-radius: 50px;
   height: 100%;
   bottom: 0;
@@ -565,7 +570,7 @@ $light-color: #0be8f0;  */
 
 .skillsContainer-tech .skill-bar .skill-progress .progress {
   width: 100%;
-  height: 0.5rem;
+  height: 1.5rem;
   border-radius: 50px;
   margin-left: 1.1rem;
   background-color: #0381ff3f;
@@ -574,10 +579,15 @@ $light-color: #0be8f0;  */
 .skillsContainer-tech .skill-bar .skill-progress .progress .inner-progress {
   position: absolute;
   background-color: #037fff;
+  background-color: #20bf55;
+  background-image: linear-gradient(295deg, #00ee4f 0%, #037fff 74%);
   border-radius: 50px;
   height: 100%;
   bottom: 0;
   left: 0; }
+
+.skills-margin {
+  margin-bottom: 3rem; }
 
 .ServicesSection .service {
   width: 95%;
