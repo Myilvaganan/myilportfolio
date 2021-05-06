@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/myilportfolio/static/css/main.4a020ce1.chunk.css",
-    "main.js": "/myilportfolio/static/js/main.4530b137.chunk.js",
-    "main.js.map": "/myilportfolio/static/js/main.4530b137.chunk.js.map",
+    "main.css": "/myilportfolio/static/css/main.a7b29744.chunk.css",
+    "main.js": "/myilportfolio/static/js/main.272437e9.chunk.js",
+    "main.js.map": "/myilportfolio/static/js/main.272437e9.chunk.js.map",
     "runtime-main.js": "/myilportfolio/static/js/runtime-main.db596040.js",
     "runtime-main.js.map": "/myilportfolio/static/js/runtime-main.db596040.js.map",
-    "static/js/2.80790e8a.chunk.js": "/myilportfolio/static/js/2.80790e8a.chunk.js",
-    "static/js/2.80790e8a.chunk.js.map": "/myilportfolio/static/js/2.80790e8a.chunk.js.map",
+    "static/js/2.2832dff1.chunk.js": "/myilportfolio/static/js/2.2832dff1.chunk.js",
+    "static/js/2.2832dff1.chunk.js.map": "/myilportfolio/static/js/2.2832dff1.chunk.js.map",
     "index.html": "/myilportfolio/index.html",
-    "static/css/main.4a020ce1.chunk.css.map": "/myilportfolio/static/css/main.4a020ce1.chunk.css.map",
-    "static/js/2.80790e8a.chunk.js.LICENSE.txt": "/myilportfolio/static/js/2.80790e8a.chunk.js.LICENSE.txt",
+    "static/css/main.a7b29744.chunk.css.map": "/myilportfolio/static/css/main.a7b29744.chunk.css.map",
+    "static/js/2.2832dff1.chunk.js.LICENSE.txt": "/myilportfolio/static/js/2.2832dff1.chunk.js.LICENSE.txt",
+    "static/media/DevConnector.6e56e44e.jpg": "/myilportfolio/static/media/DevConnector.6e56e44e.jpg",
     "static/media/about1.7dee0a1e.png": "/myilportfolio/static/media/about1.7dee0a1e.png",
     "static/media/avatar.1dadf873.png": "/myilportfolio/static/media/avatar.1dadf873.png",
     "static/media/color-flipper.efce9be2.png": "/myilportfolio/static/media/color-flipper.efce9be2.png",
@@ -17,6 +18,7 @@
     "static/media/design.8ecb3043.svg": "/myilportfolio/static/media/design.8ecb3043.svg",
     "static/media/emailme.a60657eb.svg": "/myilportfolio/static/media/emailme.a60657eb.svg",
     "static/media/expense-tracker.228162e2.png": "/myilportfolio/static/media/expense-tracker.228162e2.png",
+    "static/media/expenseManager.9adbdb33.jpg": "/myilportfolio/static/media/expenseManager.9adbdb33.jpg",
     "static/media/firebase.9add5951.png": "/myilportfolio/static/media/firebase.9add5951.png",
     "static/media/florashop.4f16b6c8.png": "/myilportfolio/static/media/florashop.4f16b6c8.png",
     "static/media/food-recipe.1d226315.png": "/myilportfolio/static/media/food-recipe.1d226315.png",
@@ -44,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.db596040.js",
-    "static/js/2.80790e8a.chunk.js",
-    "static/css/main.4a020ce1.chunk.css",
-    "static/js/main.4530b137.chunk.js"
+    "static/js/2.2832dff1.chunk.js",
+    "static/css/main.a7b29744.chunk.css",
+    "static/js/main.272437e9.chunk.js"
   ]
 }
