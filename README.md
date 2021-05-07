@@ -1,7 +1,15 @@
 [![Header](https://github.com/Myilvaganan/DevConnector/blob/main/ProfileHeader.png "Header")](https://github.com/Myilvaganan/)
 
 # Portfolio Website
-![Driwwwle Banner](https://github.com/Myilvaganan/myilportfolio/blob/master/docs/HomePage.jpg)
+![Portfolio Banner](https://github.com/Myilvaganan/myilportfolio/blob/master/docs/HomePage.jpg)
+
+## Deployed Website
+
+https://myilvaganan.github.io/myilportfolio/
+
+## Github Repository
+
+https://github.com/Myilvaganan/myilportfolio
 
 
 ## website Views
