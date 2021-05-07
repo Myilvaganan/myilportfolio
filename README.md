@@ -6,7 +6,6 @@
 
 ## website Views
 
-![Landing Page](docs/HomePage.jpg)
 ![About Page](docs/AboutPage.jpg)
 ![Portfolios Page](docs/PortfolioPage.jpg)
 ![Skills Page]docs/SkillsPage.jpg)
