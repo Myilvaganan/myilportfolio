@@ -8,7 +8,7 @@
 
 ![About Page](docs/AboutPage.jpg)
 ![Portfolios Page](docs/PortfolioPage.jpg)
-![Skills Page]docs/SkillsPage.jpg)
+![Skills Page](docs/SkillsPage.jpg)
 ![Contacts Page](docs/ContactPage.jpg)
 
 # Getting Started with Create React App
