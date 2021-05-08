@@ -11,25 +11,24 @@ const TechPage = () => {
 			<div className='b-title'>
 				<Title title={'Developer Skills'} span={'Developer Skills'} />
 			</div>
-			<motion.div className='BlogsPage' variants={stagger} initial='initial' animate='animate'>
+			<motion.div className='BlogsPage' variants={stagger} initial='hidden' animate='show'>
 				{Technologies.map((blog) => {
 					return (
 						<motion.div
 							className='blog'
 							key={blog.id}
 							variants={fadeInUp}
-							initial='initial'
-							animate='animate'
+							
 						>
 							<div className='blog-content'>
 								<img src={blog.image} alt='' />
 								<a href={blog.link} className='blog-link'>
 									{blog.title}
 								</a>
-								<p className='blog-time'>
+								{/* 	<p className='blog-time'>
 									{' '}
 									Experiencing from : {blog.month} {blog.year}
-								</p>
+								</p> */}
 							</div>
 							<div className='skillsContainer-tech'>
 								<SkillsSection progress={blog.progress} />

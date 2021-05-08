@@ -101,7 +101,7 @@ const Technologies = [
 		image: githubpages,
 		title: 'static site hosting platform- GitHub Pages',
 		link: 'https://pages.github.com/',
-		progress: '100%',
+		progress: '90%',
 		date: '09',
 		month: 'Sep',
 		year: '2018'
@@ -141,7 +141,7 @@ const Technologies = [
 		image: netlify,
 		title: 'Hosting Platform - Netlify',
 		link: 'https://www.netlify.com/',
-		progress: '100%',
+		progress: '80%',
 		date: '09',
 		month: 'Dec',
 		year: '2020'
@@ -151,7 +151,7 @@ const Technologies = [
 		image: postman,
 		title: 'API Development Platform - Postman',
 		link: 'https://www.postman.com/',
-		progress: '100%',
+		progress: '80%',
 		date: '09',
 		month: 'Feb',
 		year: '2021'

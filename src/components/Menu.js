@@ -7,16 +7,10 @@ import { fadeInUp, stagger } from '../utils/animation';
 
 const Menu = ({ menuItems }) => {
 	return (
-		<motion.div className='portfolios' variants={stagger} initial='initial' animate='animate'>
+		<motion.div className='portfolios' variants={stagger} initial='hidden' animate='show'>
 			{menuItems.map((item) => {
 				return (
-					<motion.div
-						className='portfolio'
-						key={item.id}
-						variants={fadeInUp}
-						initial='initial'
-						animate='animate'
-					>
+					<motion.div className='portfolio' key={item.id} variants={fadeInUp}>
 						<div className='image-data'>
 							<img src={item.image} alt='' />
 							<ul className='hover-items'>

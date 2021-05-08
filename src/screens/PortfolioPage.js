@@ -3,8 +3,7 @@ import Categories from "../components/Categories";
 import Menu from "../components/Menu";
 import Title from "../components/Title";
 import portfolios from "../components/Portfolios";
-import { motion } from 'framer-motion';
-import { fadeInUp, stagger } from '../utils/animation';
+
 const allCategories = [
   "All",
   ...new Set(portfolios.map((item) => item.category)),

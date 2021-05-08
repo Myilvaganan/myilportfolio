@@ -34,19 +34,19 @@ function App() {
 				<div className='content'>
 					<AnimatePresence exitBeforeEnter>
 						<Switch>
-							<Route path='/myilportfolio' exact>
+							<Route exact path='/myilportfolio'>
 								<HomePage />
 							</Route>
-							<Route path='/about' exact>
+							<Route exact path='/about'>
 								<AboutPage />
 							</Route>
-							<Route path='/portfolios' exact>
+							<Route exact path='/portfolios'>
 								<PortfolioPage />
 							</Route>
-							<Route path='/work' exact>
+							<Route exact path='/work'>
 								<TechPage />
 							</Route>
-							<Route path='/contact' exact>
+							<Route exact path='/contact'>
 								<ContactPage />
 							</Route>
 						</Switch>

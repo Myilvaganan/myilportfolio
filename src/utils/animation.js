@@ -1,48 +1,43 @@
-const ease = [0.17, 0.67, 0.83, 0.67]
 
+export const stagger = {
+	hidden: { opacity: 0 },
+	show: {
+		opacity: 1,
+		transition: {
+			staggerChildren: 0.1,
+			delayChildren: 0.2
+		}
+	}
+};
 
 
 export const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0
-	},
-	animate: {
+	hidden: { opacity: 0, y: 100 },
+
+	show: {
 		y: 0,
 		opacity: 1,
 		transition: {
-			delay: 0.1,
-			duration: 0.5,
-			type: 'tween',
-      ease: ease
+			duration: 0.8,
+			type: 'spring',
+			dampness: 20,
+			stiffness: 90
 		}
 	}
 };
 
-export const stagger = {
-	initial: {},
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-			delayChildren: 0.3
-		}
-	}
-};
 
 export const routeFade = {
-	initial: {
-		x: -100,
-		opacity: 0
-	},
+	initial: { opacity: 0, x: '-50%', transition: { ease: 'easeInOut' } },
+
 	animate: {
 		x: 0,
 		opacity: 1,
 		transition: {
-			delay: 0.1,
-			duration: 0.5,
-			type: 'tween'
-			/*   dampness: 20,
-          stiffness: 300 */
+			duration: 1.5,
+			type: 'spring',
+			dampness: 10,
+			stiffness: 80
 		}
 	},
 	exit: {
