@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/myilportfolio/static/css/main.7612370d.chunk.css",
-    "main.js": "/myilportfolio/static/js/main.de4d44c2.chunk.js",
-    "main.js.map": "/myilportfolio/static/js/main.de4d44c2.chunk.js.map",
+    "main.js": "/myilportfolio/static/js/main.0ba01fb0.chunk.js",
+    "main.js.map": "/myilportfolio/static/js/main.0ba01fb0.chunk.js.map",
     "runtime-main.js": "/myilportfolio/static/js/runtime-main.db596040.js",
     "runtime-main.js.map": "/myilportfolio/static/js/runtime-main.db596040.js.map",
-    "static/js/2.20276679.chunk.js": "/myilportfolio/static/js/2.20276679.chunk.js",
-    "static/js/2.20276679.chunk.js.map": "/myilportfolio/static/js/2.20276679.chunk.js.map",
+    "static/js/2.50b1e1a9.chunk.js": "/myilportfolio/static/js/2.50b1e1a9.chunk.js",
+    "static/js/2.50b1e1a9.chunk.js.map": "/myilportfolio/static/js/2.50b1e1a9.chunk.js.map",
     "index.html": "/myilportfolio/index.html",
     "static/css/main.7612370d.chunk.css.map": "/myilportfolio/static/css/main.7612370d.chunk.css.map",
-    "static/js/2.20276679.chunk.js.LICENSE.txt": "/myilportfolio/static/js/2.20276679.chunk.js.LICENSE.txt",
+    "static/js/2.50b1e1a9.chunk.js.LICENSE.txt": "/myilportfolio/static/js/2.50b1e1a9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/myilportfolio/static/media/BackgroundImage.336d7d8f.jpg",
     "static/media/DevConnector.6e56e44e.jpg": "/myilportfolio/static/media/DevConnector.6e56e44e.jpg",
-    "static/media/about1.7dee0a1e.png": "/myilportfolio/static/media/about1.7dee0a1e.png",
     "static/media/avatar.1dadf873.png": "/myilportfolio/static/media/avatar.1dadf873.png",
     "static/media/color-flipper.efce9be2.png": "/myilportfolio/static/media/color-flipper.efce9be2.png",
     "static/media/dairyManager.4fe6b492.png": "/myilportfolio/static/media/dairyManager.4fe6b492.png",
@@ -42,13 +41,14 @@
     "static/media/phone.ef86e22a.svg": "/myilportfolio/static/media/phone.ef86e22a.svg",
     "static/media/postman.da44adb6.svg": "/myilportfolio/static/media/postman.da44adb6.svg",
     "static/media/react.347ff04a.jpg": "/myilportfolio/static/media/react.347ff04a.jpg",
+    "static/media/resumeMay2021.472bf363.pdf": "/myilportfolio/static/media/resumeMay2021.472bf363.pdf",
     "static/media/todo-list-js.ac719b96.png": "/myilportfolio/static/media/todo-list-js.ac719b96.png",
     "static/media/toto-list.5caa86ec.png": "/myilportfolio/static/media/toto-list.5caa86ec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.db596040.js",
-    "static/js/2.20276679.chunk.js",
+    "static/js/2.50b1e1a9.chunk.js",
     "static/css/main.7612370d.chunk.css",
-    "static/js/main.de4d44c2.chunk.js"
+    "static/js/main.0ba01fb0.chunk.js"
   ]
 }
