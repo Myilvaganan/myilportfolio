@@ -4,7 +4,7 @@ export const stagger = {
 	show: {
 		opacity: 1,
 		transition: {
-			staggerChildren: 0.1,
+			staggerChildren: 0.5,
 			delayChildren: 0.2
 		}
 	}
@@ -28,13 +28,14 @@ export const fadeInUp = {
 
 
 export const routeFade = {
-	initial: { opacity: 0, x: '-50%', transition: { ease: 'easeInOut' } },
+	initial: { opacity: 0, x: '-50%'},
 
 	animate: {
 		x: 0,
 		opacity: 1,
 		transition: {
-			duration: 1.5,
+			duration: 0.2,
+			ease: "easeIn",
 			type: 'spring',
 			dampness: 10,
 			stiffness: 80

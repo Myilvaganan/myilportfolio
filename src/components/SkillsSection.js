@@ -9,11 +9,11 @@ const SkillsSection = ({ skill, progress }) => {
 		animate: {
 			width: progress,
 			transition: {
-				delay: 0.5,
-				duration: 3.9,
-				type: 'spring',
-				dampness: 10,
-				stiffness: 100
+				delay: 2,
+				duration: 5,
+				type: 'tween',
+			/* 	dampness: 10,
+				stiffness: 100 */
 			}
 		}
 	};

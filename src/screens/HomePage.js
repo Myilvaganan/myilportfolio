@@ -1,9 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram , faBehance, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import Typed from 'react-typed';
 import { motion } from 'framer-motion';
 import { routeFade } from '../utils/animation';
+import DownloadLink from '../components/DownloadLink';
+import resume from '../assets/resumeMay2021.pdf';
+
 
 const HomePage = () => {
 	return (
@@ -25,8 +28,8 @@ const HomePage = () => {
 								'a MERN Developer',
 								'a Nature Lover!'
 							]}
-							typeSpeed={90}
-							backSpeed={60}
+							typeSpeed={70}
+							backSpeed={90}
 							loop
 						/>
 					</span>
@@ -50,6 +53,22 @@ const HomePage = () => {
 					<a href='https://github.com/Myilvaganan' className='icon-holder' rel='noreferrer' target='_blank'>
 						<FontAwesomeIcon className='icon gh' icon={faGithub} />
 					</a>
+						<a
+						href='https://www.behance.net/myilvaganans'
+						className='icon-holder'
+						rel='noreferrer'
+						target='_blank'
+					>
+						<FontAwesomeIcon className='icon ig' icon={faBehance} />
+					</a>
+						<a
+						href='https://www.facebook.com/myilramkrishnan.actor/'
+						className='icon-holder'
+						rel='noreferrer'
+						target='_blank'
+					>
+						<FontAwesomeIcon className='icon ig' icon={faFacebook} />
+					</a>
 					<a
 						href='https://www.instagram.com/myil_passion_photographer/?igshid=18ql4igyq5cm1'
 						className='icon-holder'
@@ -62,13 +81,7 @@ const HomePage = () => {
 				<div className='img text-center'>
 					{/*  <img src={about} alt="devImg" /> */}
 					<button className='btn resume'>
-						<a
-							href='https://drive.google.com/file/d/1fGHXPnX2N22TS86AmY7g_U17LtUVwpfW/view?usp=sharing'
-							rel='noreferrer'
-							target='_blank'
-						>
-							Download Cv
-						</a>
+					 <DownloadLink src={resume}>Download Cv</DownloadLink>
 					</button>
 				</div>
 			</motion.header>
