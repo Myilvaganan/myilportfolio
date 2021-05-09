@@ -13,9 +13,11 @@ import { AnimatePresence } from 'framer-motion';
 
 function App() {
 	const [ navToggle, setNavToggle ] = useState(false);
+	const [ isOpen, setIsOpen ] = useState(false);
 
 	const navClick = () => {
 		setNavToggle(!navToggle);
+		setIsOpen(!isOpen);
 	};
 
 	return (
@@ -23,12 +25,18 @@ function App() {
 			<div className={`side-bar ${navToggle ? 'nav-toggle' : ' '}`}>
 				<NavBar />
 			</div>
+			{isOpen ? (
+				<div className='nav-btn' onClick={navClick}>
+					<i className='fa fa-times fa-3x times-icon' aria-hidden='true' />
+				</div>
+			) : (
+				<div className='nav-btn' onClick={navClick}>
+					<div className='lines-1' />
+					<div className='lines-2' />
+					<div className='lines-3' />
+				</div>
+			)}
 
-			<div className='nav-btn' onClick={navClick}>
-				<div className='lines-1' />
-				<div className='lines-2' />
-				<div className='lines-3' />
-			</div>
 			{/*  <ParticleBackground /> */}
 			<div className='main-content'>
 				<div className='content'>

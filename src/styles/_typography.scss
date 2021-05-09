@@ -47,14 +47,20 @@
       color: $icon-color;
       transition: all 0.4s ease-in-out;
     }
-    .fb:hover {
-      color: rgb(45, 186, 230);
+    .li:hover {
+      color: rgb(8, 113, 145);
     }
     .gh:hover {
       color: rgb(255, 255, 255);
     }
     .ig:hover {
       color: rgb(240, 3, 240);
+    }
+     .be:hover {
+      color: rgb(49, 41, 41);
+    }
+     .fb:hover {
+      color: rgb(20, 45, 128);
     }
   }
 }

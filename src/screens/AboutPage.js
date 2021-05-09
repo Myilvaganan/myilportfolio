@@ -15,7 +15,6 @@ const AboutPage = () => {
 			<AboutSection />
 			<Title title={`Software Skills`} span={`Software Skills`} />
 			<div className='skillsContainer'>
-				
 				<SkillsSection skill={'Adobe XD'} progress={'85%'} />
 				<SkillsSection skill={'Adobe PhotoShop'} progress={'89%'} />
 				<SkillsSection skill={'Adobe Illustrator'} progress={'85%'} />

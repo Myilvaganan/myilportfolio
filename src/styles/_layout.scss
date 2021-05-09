@@ -40,10 +40,7 @@
 
     .img{
       text-align: center;
-        width: 100%;
-
-       
-    
+      width: 100%;
     }
  
     display: grid;
@@ -57,11 +54,14 @@
         margin: 3rem 10rem;
       }
       @media screen and (max-width: 1400px) {
-        margin: 3rem 10rem;
+        margin: 3rem 2.5rem;
       }
       @media screen and (max-width: 710px) {
-        margin: 2rem 3rem;
+        margin: 2rem 2rem;
       }
+     @media screen and (max-width: 380px) {
+        margin: 2rem 0.8rem;
+      } 
     }
     @media screen and (max-width: 1000px) {
       margin-left: 0;
@@ -81,7 +81,7 @@
 }
 
 .nav-btn {
-  position: absolute;
+  position: fixed;
   z-index: 10;
   right: 5%;
   top: 5%;
@@ -92,12 +92,17 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  .times-icon{
+color: $active-color;
+  }
   .lines-1,
   .lines-2,
-  .lines-3 {
+  .lines-3
+  {
     height: 0.4rem;
     width: 100%;
     background-color: $active-color;
+    
     pointer-events: none;
     display: none;
     border-radius: 20px;
@@ -105,12 +110,16 @@
       margin-bottom: 0.5rem;
     }
   }
+  
+
   @media screen and (max-width: 1000px) {
     display: block;
     .lines-1,
     .lines-2,
     .lines-3 {
       display: block;
+       width: 60%;
     }
   }
 }
+

@@ -40,6 +40,7 @@ const HomePage = () => {
 					Restful API's and databases. Bring to the team a solid track record of success in the delivery of
 					software applications, hands-on experience, and diverse industry background. Equally strong in the
 					front-end web UI, middle-tier, and back-end technologies.
+					
 				</p>
 				<div className='icons'>
 					<a
@@ -48,7 +49,7 @@ const HomePage = () => {
 						rel='noreferrer'
 						target='_blank'
 					>
-						<FontAwesomeIcon className='icon fb' icon={faLinkedin} />
+						<FontAwesomeIcon className='icon li' icon={faLinkedin} />
 					</a>
 					<a href='https://github.com/Myilvaganan' className='icon-holder' rel='noreferrer' target='_blank'>
 						<FontAwesomeIcon className='icon gh' icon={faGithub} />
@@ -59,7 +60,7 @@ const HomePage = () => {
 						rel='noreferrer'
 						target='_blank'
 					>
-						<FontAwesomeIcon className='icon ig' icon={faBehance} />
+						<FontAwesomeIcon className='icon be' icon={faBehance} />
 					</a>
 						<a
 						href='https://www.facebook.com/myilramkrishnan.actor/'
@@ -67,7 +68,7 @@ const HomePage = () => {
 						rel='noreferrer'
 						target='_blank'
 					>
-						<FontAwesomeIcon className='icon ig' icon={faFacebook} />
+						<FontAwesomeIcon className='icon fb' icon={faFacebook} />
 					</a>
 					<a
 						href='https://www.instagram.com/myil_passion_photographer/?igshid=18ql4igyq5cm1'
