@@ -42,7 +42,7 @@ const NavBar = () => {
 					</li>
 				</ul>{' '}
 				<footer className='footer'>
-					<p>@2021 May Updated</p>
+					<p>@2021 July Updated</p>
 				</footer>
 			</nav>
 		</div>
